@@ -8,8 +8,7 @@ document.addEventListener('DOMContentLoaded' , () => {
     let gravity = 3
     let isGameOver = false
     let gap = 430
-
-
+    
     function startGame() { //function to apply pixel changes to the styling of the elements (bird)
         birdBottom -= gravity //each time we invoque this function let minus gravity from the bottom
         bird.style.bottom = birdBottom + 'px' //use plus 100px to the bottom of element, relative to the sky div
